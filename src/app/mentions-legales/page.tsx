@@ -3,8 +3,8 @@ import Link from "next/link";
 import { COMPANY_NAME, CONTACT_EMAIL, SITE_URL, WHATSAPP_NUMBER } from "@/lib/constants";
 
 export const metadata: Metadata = {
-  title: "Mentions légales — SiteChauffeur",
-  description: "Mentions légales de SiteChauffeur, agence de création de sites web pour chauffeurs VTC.",
+  title: "Mentions légales — VTCPro",
+  description: "Mentions légales de VTCPro, agence de création de sites web pour chauffeurs VTC.",
   alternates: {
     canonical: `${SITE_URL}/mentions-legales`,
   },

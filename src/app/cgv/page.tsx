@@ -3,8 +3,8 @@ import Link from "next/link";
 import { COMPANY_NAME, CONTACT_EMAIL, SITE_URL } from "@/lib/constants";
 
 export const metadata: Metadata = {
-  title: "Conditions Générales de Vente — SiteChauffeur",
-  description: "Conditions générales de vente des prestations de création de sites web SiteChauffeur pour chauffeurs VTC.",
+  title: "Conditions Générales de Vente — VTCPro",
+  description: "Conditions générales de vente des prestations de création de sites web VTCPro pour chauffeurs VTC.",
   alternates: {
     canonical: `${SITE_URL}/cgv`,
   },
