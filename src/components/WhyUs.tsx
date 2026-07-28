@@ -15,13 +15,18 @@ const REASONS = [
     icon: "⚡",
     title: "Technologie moderne",
     description:
-      "Sites Next.js ultra-rapides avec scores PageSpeed 100/100. Vos clients adorent les sites qui chargent vite.",
+      "Sites Next.js ultra-rapides. Vos clients adorent les sites qui chargent vite.",
   },
   {
     icon: "📱",
     title: "100% Mobile",
+    description: "Nos sites sont conçus pour mobile et pour ordinateur.",
+  },
+  {
+    icon: "🔍",
+    title: "SEO 100/100",
     description:
-      "Plus de 80% de vos clients réservent depuis leur téléphone. Nos sites sont conçus mobile en priorité.",
+      "Nos sites obtiennent un score de référencement naturel parfait de 100/100. Vos clients vous trouvent facilement sur Google.",
   },
 ];
 
@@ -33,7 +38,7 @@ export default function WhyUs() {
           Pourquoi choisir <span className="gold-text">SiteChauffeur</span> ?
         </h2>
 
-        <div className="mt-12 grid grid-cols-1 gap-6 sm:grid-cols-2 lg:grid-cols-4">
+        <div className="mt-12 grid grid-cols-1 gap-6 sm:grid-cols-2 lg:grid-cols-3">
           {REASONS.map((reason) => (
             <div
               key={reason.title}
