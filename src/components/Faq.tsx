@@ -31,7 +31,7 @@ const FAQS = [
   {
     question: "Puis-je voir des exemples de sites que vous avez créés ?",
     answer:
-      "Oui ! Consultez notre section Réalisations sur cette page. PrivateMove (privatemove.fr) est notre réalisation phare avec un score PageSpeed 100/100.",
+      "Oui ! Consultez notre section Réalisations sur cette page.",
   },
 ];
 
