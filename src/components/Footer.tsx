@@ -6,7 +6,7 @@ export default function Footer() {
     <footer className="border-t border-gold/10 bg-charcoal py-10">
       <div className="container-px mx-auto flex max-w-6xl flex-col items-center gap-4 text-center sm:flex-row sm:justify-between sm:text-left">
         <p className="text-sm text-foreground/60">
-          © 2026 ChaufSitePro. Tous droits réservés.
+          © 2026 SiteChauffeur. Tous droits réservés.
         </p>
 
         <div className="flex flex-wrap items-center justify-center gap-x-6 gap-y-2 text-sm text-foreground/60">

@@ -30,7 +30,7 @@ export default function WhyUs() {
     <section className="bg-charcoal-light py-20">
       <div className="container-px mx-auto max-w-6xl">
         <h2 className="text-center font-display text-3xl font-bold text-foreground sm:text-4xl">
-          Pourquoi choisir <span className="gold-text">ChaufSitePro</span> ?
+          Pourquoi choisir <span className="gold-text">SiteChauffeur</span> ?
         </h2>
 
         <div className="mt-12 grid grid-cols-1 gap-6 sm:grid-cols-2 lg:grid-cols-4">

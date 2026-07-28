@@ -1,10 +1,13 @@
 import type { Metadata } from "next";
 import Link from "next/link";
-import { COMPANY_NAME, CONTACT_EMAIL } from "@/lib/constants";
+import { COMPANY_NAME, CONTACT_EMAIL, SITE_URL } from "@/lib/constants";
 
 export const metadata: Metadata = {
-  title: "Conditions Générales de Vente — ChaufSitePro",
-  description: "Conditions générales de vente des prestations de création de sites web ChaufSitePro pour chauffeurs VTC.",
+  title: "Conditions Générales de Vente — SiteChauffeur",
+  description: "Conditions générales de vente des prestations de création de sites web SiteChauffeur pour chauffeurs VTC.",
+  alternates: {
+    canonical: `${SITE_URL}/cgv`,
+  },
 };
 
 export default function Cgv() {

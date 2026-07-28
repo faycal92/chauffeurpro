@@ -18,9 +18,9 @@ const playfair = Playfair_Display({
 
 export const metadata: Metadata = {
   metadataBase: new URL(SITE_URL),
-  title: "ChaufSitePro — Sites Web Professionnels pour Chauffeurs VTC",
+  title: "SiteChauffeur — Sites Web Professionnels pour Chauffeurs VTC",
   description:
-    "Création de sites web sur-mesure pour chauffeurs VTC en France. Réservation en ligne, calcul de prix automatique, paiement Stripe. Devis gratuit.",
+    "SiteChauffeur crée des sites web sur-mesure pour chauffeurs VTC en France. Réservation en ligne, calcul de prix automatique, paiement Stripe. Devis gratuit.",
   keywords: [
     "site web VTC",
     "création site VTC",
@@ -29,14 +29,17 @@ export const metadata: Metadata = {
     "développeur web VTC France",
   ],
   authors: [{ name: COMPANY_NAME }],
+  alternates: {
+    canonical: SITE_URL,
+  },
   openGraph: {
     type: "website",
     locale: "fr_FR",
     url: SITE_URL,
     siteName: COMPANY_NAME,
-    title: "ChaufSitePro — Sites Web Professionnels pour Chauffeurs VTC",
+    title: "SiteChauffeur — Sites Web Professionnels pour Chauffeurs VTC",
     description:
-      "Création de sites web sur-mesure pour chauffeurs VTC en France. Réservation en ligne, calcul de prix automatique, paiement Stripe. Devis gratuit.",
+      "SiteChauffeur crée des sites web sur-mesure pour chauffeurs VTC en France. Réservation en ligne, calcul de prix automatique, paiement Stripe. Devis gratuit.",
   },
   robots: {
     index: true,

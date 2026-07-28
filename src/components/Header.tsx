@@ -31,7 +31,7 @@ export default function Header() {
     >
       <nav className="container-px mx-auto flex h-16 max-w-6xl items-center justify-between">
         <a href="#top" className="font-display text-xl font-bold tracking-wide text-foreground">
-          Chauf<span className="gold-text">Site</span>Pro
+          Site<span className="gold-text">Chauffeur</span>
         </a>
 
         <div className="hidden items-center gap-8 md:flex">

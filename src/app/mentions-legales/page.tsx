@@ -1,10 +1,13 @@
 import type { Metadata } from "next";
 import Link from "next/link";
-import { COMPANY_NAME, CONTACT_EMAIL, WHATSAPP_NUMBER } from "@/lib/constants";
+import { COMPANY_NAME, CONTACT_EMAIL, SITE_URL, WHATSAPP_NUMBER } from "@/lib/constants";
 
 export const metadata: Metadata = {
-  title: "Mentions légales — ChaufSitePro",
-  description: "Mentions légales de ChaufSitePro, agence de création de sites web pour chauffeurs VTC.",
+  title: "Mentions légales — SiteChauffeur",
+  description: "Mentions légales de SiteChauffeur, agence de création de sites web pour chauffeurs VTC.",
+  alternates: {
+    canonical: `${SITE_URL}/mentions-legales`,
+  },
 };
 
 export default function MentionsLegales() {
