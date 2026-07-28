@@ -18,9 +18,9 @@ const playfair = Playfair_Display({
 
 export const metadata: Metadata = {
   metadataBase: new URL(SITE_URL),
-  title: "VTCPro — Sites Web Professionnels pour Chauffeurs VTC",
+  title: "DriveConnect — Sites Web Professionnels pour Chauffeurs VTC",
   description:
-    "VTCPro crée des sites web sur-mesure pour chauffeurs VTC en France. Réservation en ligne, calcul de prix automatique, paiement Stripe. Devis gratuit.",
+    "DriveConnect crée des sites web sur-mesure pour chauffeurs VTC en France. Réservation en ligne, calcul de prix automatique, paiement Stripe. Devis gratuit.",
   keywords: [
     "site web VTC",
     "création site VTC",
@@ -37,9 +37,9 @@ export const metadata: Metadata = {
     locale: "fr_FR",
     url: SITE_URL,
     siteName: COMPANY_NAME,
-    title: "VTCPro — Sites Web Professionnels pour Chauffeurs VTC",
+    title: "DriveConnect — Sites Web Professionnels pour Chauffeurs VTC",
     description:
-      "VTCPro crée des sites web sur-mesure pour chauffeurs VTC en France. Réservation en ligne, calcul de prix automatique, paiement Stripe. Devis gratuit.",
+      "DriveConnect crée des sites web sur-mesure pour chauffeurs VTC en France. Réservation en ligne, calcul de prix automatique, paiement Stripe. Devis gratuit.",
   },
   robots: {
     index: true,
