@@ -41,6 +41,12 @@ export const metadata: Metadata = {
     description:
       "DriveConnect crée des sites web sur-mesure pour chauffeurs VTC en France. Réservation en ligne, calcul de prix automatique, paiement Stripe. Devis gratuit.",
   },
+  twitter: {
+    card: "summary_large_image",
+    title: "DriveConnect — Sites Web Professionnels pour Chauffeurs VTC",
+    description:
+      "DriveConnect crée des sites web sur-mesure pour chauffeurs VTC en France. Réservation en ligne, calcul de prix automatique, paiement Stripe. Devis gratuit.",
+  },
   robots: {
     index: true,
     follow: true,

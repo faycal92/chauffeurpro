@@ -40,6 +40,13 @@ export function generateMetadata({
       title: post.metaTitle,
       description: post.metaDescription,
       publishedTime: post.date,
+      images: [{ url: "/opengraph-image", width: 1200, height: 630 }],
+    },
+    twitter: {
+      card: "summary_large_image",
+      title: post.metaTitle,
+      description: post.metaDescription,
+      images: ["/twitter-image"],
     },
   };
 }
@@ -68,6 +75,7 @@ export default function BlogArticlePage({
     "@type": "BlogPosting",
     headline: post.title,
     description: post.metaDescription,
+    image: `${SITE_URL}/opengraph-image`,
     datePublished: post.date,
     dateModified: post.date,
     author: {

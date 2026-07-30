@@ -20,6 +20,14 @@ export const metadata: Metadata = {
     title: "Blog — Conseils pour Chauffeurs VTC",
     description:
       "Conseils, guides et actualités pour chauffeurs VTC et taxi : création de site web, réservation en ligne, SEO local et acquisition de clients.",
+    images: [{ url: "/opengraph-image", width: 1200, height: 630 }],
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "Blog — Conseils pour Chauffeurs VTC",
+    description:
+      "Conseils, guides et actualités pour chauffeurs VTC et taxi : création de site web, réservation en ligne, SEO local et acquisition de clients.",
+    images: ["/twitter-image"],
   },
 };
 
