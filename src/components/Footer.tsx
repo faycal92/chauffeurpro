@@ -16,6 +16,9 @@ export default function Footer() {
           <Link href="/cgv" className="hover:text-gold">
             CGV
           </Link>
+          <Link href="/blog" className="hover:text-gold">
+            Blog
+          </Link>
           <a href="#contact" className="hover:text-gold">
             Contact
           </a>
