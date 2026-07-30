@@ -30,8 +30,9 @@ export default function Header() {
       } border-b border-gold/10`}
     >
       <nav className="container-px mx-auto flex h-16 max-w-6xl items-center justify-between">
-        <a href="/" className="font-display text-xl font-bold tracking-wide text-foreground">
-          Drive<span className="gold-text">Connect</span>
+        <a href="/" className="flex items-center">
+          {/* eslint-disable-next-line @next/next/no-img-element -- static local SVG, no benefit from next/image optimization */}
+          <img src="/logo.svg" alt="DriveConnect" className="h-9 w-auto sm:h-10" />
         </a>
 
         <div className="hidden items-center gap-8 md:flex">
