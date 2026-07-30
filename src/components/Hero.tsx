@@ -2,10 +2,7 @@ import { WHATSAPP_LINK } from "@/lib/constants";
 
 export default function Hero() {
   return (
-    <section
-      id="top"
-      className="relative flex min-h-[92vh] items-center overflow-hidden bg-charcoal pt-24 pb-16"
-    >
+    <section className="relative flex min-h-[92vh] items-center overflow-hidden bg-charcoal pt-24 pb-16">
       <div
         aria-hidden
         className="pointer-events-none absolute inset-0 opacity-40"

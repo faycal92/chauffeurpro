@@ -4,10 +4,10 @@ import { useEffect, useState } from "react";
 import { WHATSAPP_LINK } from "@/lib/constants";
 
 const NAV_LINKS = [
-  { label: "Offres", href: "#offres" },
-  { label: "Réalisations", href: "#realisations" },
-  { label: "FAQ", href: "#faq" },
-  { label: "Contact", href: "#contact" },
+  { label: "Offres", href: "/#offres" },
+  { label: "Réalisations", href: "/#realisations" },
+  { label: "FAQ", href: "/#faq" },
+  { label: "Contact", href: "/#contact" },
 ];
 
 export default function Header() {
@@ -30,7 +30,7 @@ export default function Header() {
       } border-b border-gold/10`}
     >
       <nav className="container-px mx-auto flex h-16 max-w-6xl items-center justify-between">
-        <a href="#top" className="font-display text-xl font-bold tracking-wide text-foreground">
+        <a href="/" className="font-display text-xl font-bold tracking-wide text-foreground">
           Drive<span className="gold-text">Connect</span>
         </a>
 

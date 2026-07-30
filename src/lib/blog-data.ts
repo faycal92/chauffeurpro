@@ -46,6 +46,7 @@ export const blogPosts: BlogPost[] = [
       "prix-creation-site-vtc",
       "reservation-en-ligne-vtc",
       "seo-local-chauffeur-vtc",
+      "site-web-taxi",
     ],
     content: [
       {
@@ -183,6 +184,10 @@ export const blogPosts: BlogPost[] = [
       {
         type: "p",
         text: "Gardez également à l'esprit que la concurrence dans le secteur du VTC ne cesse de croître d'année en année. Les chauffeurs qui investissent aujourd'hui dans un site professionnel et bien référencé prennent une longueur d'avance durable sur ceux qui attendront encore plusieurs mois ou plusieurs années avant de franchir le pas, notamment parce que le référencement naturel récompense l'ancienneté et la régularité d'un site sur la durée.",
+      },
+      {
+        type: "p",
+        text: "Si vous exercez une activité de taxi plutôt que de VTC, la plupart de ces principes restent valables, avec quelques particularités liées à la licence et aux tarifs réglementés : consultez notre guide dédié [site web pour taxi](/blog/site-web-taxi) pour les adapter à votre situation.",
       },
     ],
     faq: [
@@ -1393,6 +1398,7 @@ export const blogPosts: BlogPost[] = [
       "creation-site-web-vtc",
       "reservation-en-ligne-vtc",
       "uber-bolt-alternative-chauffeur",
+      "site-web-taxi",
     ],
     content: [
       {
