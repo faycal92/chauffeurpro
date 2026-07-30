@@ -15,12 +15,12 @@ export default function TableOfContents({ blocks }: { blocks: BlogBlock[] }) {
       <p className="font-display text-sm font-bold uppercase tracking-wide text-gold">
         Sommaire
       </p>
-      <ol className="mt-4 space-y-2 text-sm">
+      <ol className="mt-2 text-sm">
         {headings.map((heading) => (
           <li key={heading.id}>
             <a
               href={`#${heading.id}`}
-              className="text-foreground/75 hover:text-gold"
+              className="flex min-h-[44px] items-center text-foreground/75 hover:text-gold"
             >
               {heading.text}
             </a>

@@ -27,7 +27,7 @@ export default function BlogGrid({ posts }: { posts: BlogPost[] }) {
             key={category}
             type="button"
             onClick={() => setActive(category)}
-            className={`min-h-[40px] rounded-full border px-4 text-sm font-medium transition-colors ${
+            className={`min-h-[44px] rounded-full border px-4 text-sm font-medium transition-colors ${
               active === category
                 ? "border-gold bg-gold-gradient text-charcoal"
                 : "border-gold/20 text-foreground/70 hover:border-gold/50 hover:text-foreground"
