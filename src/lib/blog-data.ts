@@ -22,14 +22,6 @@ export type BlogPost = {
   relatedSlugs: string[];
 };
 
-export const CATEGORIES = [
-  "Création de site",
-  "Marketing & Clients",
-  "Fonctionnalités",
-  "Indépendance",
-  "Tarifs",
-] as const;
-
 export const blogPosts: BlogPost[] = [
   // ─────────────────────────────────────────────────────────────────────────
   {

@@ -19,10 +19,6 @@ body {
 }
 
 @layer utilities {
-  .text-balance {
-    text-wrap: balance;
-  }
-
   .container-px {
     @apply px-5 sm:px-8;
   }

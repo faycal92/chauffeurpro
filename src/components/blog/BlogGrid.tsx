@@ -45,7 +45,7 @@ export default function BlogGrid({ posts }: { posts: BlogPost[] }) {
             href={`/blog/${post.slug}`}
             className="group flex flex-col overflow-hidden rounded-2xl border border-gold/10 bg-charcoal-card transition-colors hover:border-gold/40"
           >
-            <div className="flex h-40 items-center justify-center bg-gold-gradient/10 bg-charcoal-light text-4xl">
+            <div className="flex h-40 items-center justify-center bg-charcoal-light text-4xl">
               🚗
             </div>
             <div className="flex flex-1 flex-col p-6">
